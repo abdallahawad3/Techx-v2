@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Techx - Make Chat Easy</title>
+  <!-- Meta  -->
+  <meta name="author" content="Abdullah awad" />
+  <meta name="description"
+    content="Explore a captivating landing page crafted with HTML, CSS, and JavaScript. Immerse yourself in a seamless blend of design and functionality, showcasing the power of web development. #HTML #CSS #JavaScript #WebDesign" />
+
+  <meta name="keywords" content="HTML, CSS, HTML5, CSS3, JS, Javascript" />
+
+  <meta property="og:title" content="Crafting a Stunning Landing Page with HTML, CSS, and JavaScript" />
+
+  <meta property="og:description"
+    content="landing page using css, html, and javascript for logic, as well as flex box and grid for page layout." />
+  <meta property="og:image" content="https://abdallahawad3.github.io/Techx/img.png" />
+
+  <meta property="og:url" content="https://landingPage.com" />
+  <meta property="og:type" content="website" />
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header">
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">Techx</a>
+      </h1>
+
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#feature" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#stats" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn">Get Started</button>
+      <button class="menu-btn" aria-label="search"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+  <!-- 
+    - #HERO
+    -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-image">
+        <img src="assets/images/hero-banner.png" alt="hero banner" />
+      </div>
+
+      <div class="hero-text">
+        <h1>Make Chat Easy For Today's Digital Customers</h1>
+        <p>
+          Techx is the ecommerce helpdesk center that turns your customer
+          service into a profit center without any delay and increase your
+          sale.
+        </p>
+        <div class="hero-input">
+          <div class="input">
+            <input type="email" placeholder="Enter Your Email" />
+            <button class="hero-btn">Start Free Trial</button>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="box">
+            <i class="fa-regular fa-circle-check"></i>
+            <span>Live Chat</span>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-circle-check"></i>
+            <span>Ticketing</span>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-circle-check"></i>
+            <span>Knowledge Base</span>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-circle-check"></i>
+            <span>Chat pages</span>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-circle-check"></i>
+            <span>Team chat</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+        - #SERVICE
+      -->
+  <section class="services" id="services">
+    <div class="special-heading">
+      <h1>Our Solutions For You</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        imperdiet nulla duis ac. Id massa scelerisque venenatis, massa gravida
+        donec orci.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="service-card">
+        <div class="card-image">
+          <img src="./assets/images/service-1.gif" alt="support" />
+        </div>
+        <div class="card-content">
+          <h2>Support</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            imperdiet nulla duis consectetur adipiscing elit.
+          </p>
+          <div class="read-more">
+            <a href="#"> Learn More </a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-image">
+          <img src="./assets/images/service-2.gif" alt="engagement" />
+        </div>
+        <div class="card-content">
+          <h2>Engagement</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            imperdiet nulla duis consectetur adipiscing elit.
+          </p>
+          <div class="read-more">
+            <a href="#"> Learn More </a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="card-image">
+          <img src="./assets/images/service-3.gif" alt="marketing" />
+        </div>
+        <div class="card-content">
+          <h2>Marketing</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+            imperdiet nulla duis consectetur adipiscing elit.
+          </p>
+          <div class="read-more">
+            <a href="#"> Learn More </a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+        - #FEATURES
+      -->
+  <section class="feature" id="feature">
+    <div class="container">
+      <div class="feature-content">
+        <h1>Our Awesome Features To Serve You</h1>
+        <p>
+          Planning, tracking and delivering your team’s best work has never
+          been easier. We make it easiest for you through the software.
+        </p>
+        <div class="feature-cards">
+          <div class="box">
+            <span><img src="./assets/images/features-icon-1.svg" alt="Automate Instagram" /></span>
+            <p>Automate Instagram</p>
+          </div>
+          <div class="box">
+            <span><img src="./assets/images/features-icon-2.svg" alt="Drive Sale" /></span>
+            <p>Drive Sale</p>
+          </div>
+          <div class="box">
+            <span><img src="./assets/images/features-icon-3.svg" alt="Get More Leads
+                  " /></span>
+            <p>Get More Leads</p>
+          </div>
+          <div class="box">
+            <span><img src="./assets/images/features-icon-4.svg" alt="Engage Prospects" /></span>
+            <p>Engage Prospects</p>
+          </div>
+        </div>
+      </div>
+      <div class="feature-video">
+        <div class="one">
+          <img class="banner1" src="./assets/images/features-banner-1.gif" alt="features image" />
+          <div class="feature-image">
+            <img class="banner2" src="./assets/images/features-banner-2.png" alt="features image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+        - #ABOUT
+      -->
+  <section class="about" id="about">
+    <div class="special-heading">
+      <h1>What We Do</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+        imperdiet nulla duis ac. Id massa scelerisque venenatis, massa gravida
+        donec orci.
+      </p>
+    </div>
+    <div class="container">
+      <div class="about-card about-card-1">
+        <div class="about-image">
+          <img src="./assets/images/about-img-1.svg" alt="Automated Ticket Routing" />
+        </div>
+        <div class="about-content">
+          <a href="#">Automated Ticket Routing</a>
+          <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
+          <div class="about-more">
+            <a href="#">Learn More</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="about-card about-card-2">
+        <div class="about-image">
+          <img src="./assets/images/about-img-2.svg" alt="Automated Ticket Routing" />
+        </div>
+        <div class="about-content">
+          <a href="#">Automated Ticket Routing</a>
+          <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
+          <div class="about-more">
+            <a href="#">Learn More</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="about-card about-card-3">
+        <div class="about-image">
+          <img src="./assets/images/about-img-3.svg" alt="Automated Ticket Routing" />
+        </div>
+        <div class="about-content">
+          <a href="#">Automated Ticket Routing</a>
+          <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
+          <div class="about-more">
+            <a href="#">Learn More</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="about-card about-card-4">
+        <div class="about-image">
+          <img src="./assets/images/about-img-4.svg" alt="Automated Ticket Routing" />
+        </div>
+        <div class="about-content">
+          <a href="#">Automated Ticket Routing</a>
+          <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
+          <div class="about-more">
+            <a href="#">Learn More</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+        - #STATS
+      -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-image">
+        <img src="./assets/images/stats-banner.png" alt="stats" />
+      </div>
+      <ul class="stats-content">
+        <li class="box">
+          <p>
+            <span class="num" data-goal="386">0</span><span>million</span>
+          </p>
+          <p>Human Actions Saved On Techx</p>
+        </li>
+
+        <li class="box">
+          <p>
+            <span class="num" data-goal="400">0</span> <span>million</span>
+          </p>
+          <p>Users Throughout The World</p>
+        </li>
+
+        <li class="box">
+          <p>
+            <span class="num" data-goal="200">0</span><span>percent</span>
+          </p>
+          <p>Revenue Growth</p>
+        </li>
+
+        <li class="box">
+          <p>
+            <span class="num" data-goal="484">0</span> <span>software</span>
+          </p>
+          <p>Integration Support In Techx</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 
+        - #APP
+      -->
+  <section class="app" id="app">
+    <div class="container">
+      <div class="app-content">
+        <h2>Download Mobile App To Stay Connected</h2>
+        <p class="app-p">
+          Techx Projects gives you the added advantage of several other Techx
+          apps and third party apps through seamless integrations.
+        </p>
+        <div class="app-footer">
+          <div class="play-store">
+            <img src="./assets/images/play-store.svg" alt="play store icon" />
+            <div class="text">
+              <p>GET IT ON</p>
+              <p>Google Play</p>
+            </div>
+          </div>
+          <div class="apple-store">
+            <img src="./assets/images/apple-store.svg" alt="Apple Store" />
+            <div class="text">
+              <p>GET IT ON</p>
+              <p>Apple Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-image">
+        <img src="./assets/images/app-banner.png" alt="banner" />
+      </div>
+    </div>
+  </section>
+  <!-- 
+        - #SUPPORT
+      -->
+  <section class="support" id="support">
+    <div class="container">
+      <div class="support-text">
+        <h1>24/7 Customer Support</h1>
+        <p>
+          Our team is here to provide you with personalized and outstanding
+          service. We also offer a range of self-learning tools in our support
+          center:
+        </p>
+      </div>
+      <div class="support-btn">
+        <a href="#">Contact Us Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">Techx</a>
+
+          <figure class="footer-img">
+            <img src="./assets/images/footer-img.png" width="264" height="226" loading="lazy" aria-hidden="true"
+              class="w-100" />
+          </figure>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Design</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Web Development</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Social Marketing</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">WordPress</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Content Writing</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing Plan</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Download Apps</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-1.svg" width="16" height="16" loading="lazy" aria-hidden="true" />
+
+            <span class="span">
+              Call Us:
+              <a href="tel:+3237501234" class="footer-item-link">+(323) 750-1234</a>
+            </span>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-2.svg" width="16" height="16" loading="lazy" aria-hidden="true" />
+
+            <span class="span">
+              Address:
+              <a href="#" class="footer-item-link">Vermont Ave, Los Angeles, CA 90044</a>
+            </span>
+          </li>
+
+          <li class="footer-item">
+            <img src="./assets/images/contact-icon-3.svg" width="16" height="16" loading="lazy" aria-hidden="true" />
+
+            <span class="span">
+              Mail Us:
+              <a href="mailto:hello@Techx.com" class="footer-item-link">hello@Techx.com</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+  <div class="back-to-top">
+    <i class="fa-solid fa-angle-up"></i>
+  </div>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>
